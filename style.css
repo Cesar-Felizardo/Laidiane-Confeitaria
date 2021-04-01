@@ -1,0 +1,307 @@
+:root{
+    /* CORES LOGO */
+    --cor01:#FEF5E5 ;
+    --cor02:#FDD5CC ;
+    --cor03: #FBBCB2;
+    --cor04: #FFB7B1;
+    --cor05: #F0A39C;
+    --cor06:#CB8F86;
+    --cor07Marron:#310F05;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); /* FONTE GOOGLE USING: font-family: 'Dancing Script', cursive; */
+
+@font-face {
+    font-family: 'love';
+    src: url('Carlista\ Buttery.ttf') format('truetype');
+}
+@media (max-width: 700px){
+    body {
+        font-size: 14px;
+    }
+    #produtos {
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 12px
+    }
+    aside {
+        font-size: 13px;
+    }
+    #sabores {
+        font-size: 12px;
+    }
+}
+.fav_icon {
+    height: 20px;
+    width: 20px;
+}
+*{ 
+    margin: 0px;
+}
+html {
+    scroll-behavior: smooth; /* Barra de rolagem do documento*/
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    background: var(--cor02);
+}
+.logo{
+    width: 180px;
+    height: 180px;
+}
+p.love {
+    padding-top: 30px;
+    font-family: 'love';
+    font-size: 2.5em;
+    color: var(--cor06);
+    font-weight: bold;
+    text-shadow: 1px 1px 1px var(--cor07Marron);
+    opacity: 0.8;
+    font-weight: normal;
+}
+.logo_e_Sub {
+    padding: 80px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.618);
+} 
+
+h2 {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;                      /* H2 */
+    color: var(--cor07Marron);
+    max-width: 394px;
+    height: 30%;
+    border-radius: 10px;
+    padding: 4px;
+    line-height: 26px;
+    font-size: 1em;
+    border-left: 1px solid var(--cor07Marron);
+    background-image: linear-gradient(to left, var(--cor02), transparent );
+    text-shadow: 1px 1px 1px var(--cor07Marron);
+    box-shadow: -2px -2px 1px #310f051c;
+    font-weight: normal;
+}
+nav{                             /* MENU NAV */
+    text-align: center;
+    padding:10px 60px 10px 0px;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.166); */
+    background-color: #310F05;
+    font-size: 0.8em;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+nav > a {                       /* LINK MENU NAV */
+    text-decoration: none;
+    color: #ffffffd2;
+    font-weight: normal;
+    margin-left: 2.1%;
+    padding: 1px 10px 2px 2px;
+    font-size: 12px;
+}
+nav > a:hover{
+    color: #310F05;                       /* LINK MENU NAV */
+    background-image: linear-gradient(to right, transparent 10%, var(--cor03));
+    border-radius: 10px;
+    padding: 3px 6px;
+    transition: 0.6s;
+    color:white;
+    text-shadow: 1px 1px 1px var(--cor07Marron);
+    border-left: 1px solid var(--cor07Marron);
+  
+}
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 400px;
+    background-image: url("fatia1.jpg");
+    background-size:cover;
+    background-position:top;
+    background-repeat: no-repeat;
+}
+main {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    max-width: 900px;
+    max-height: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px 4px #00000048;
+}
+main p {                           /*Paragrafos main*/
+    text-align: justify;
+    padding:0px 0px 10px 0px;
+}
+aside {
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    max-width: 900px;
+    height: 40%;
+    padding: 20px 0px 0px 0px;
+}
+aside > p {                    /*Paragrafo aside*/
+    max-width: 76%;
+    margin: auto;
+    padding-bottom: 26px;
+    padding-top: 20px;
+    text-indent: 32px;
+    height: 40%;
+    line-height: 32px;
+}
+#galeria {
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+    /* border: 1px solid rgba(0, 0, 0, 0.082); */
+    padding: 0px;
+    background-image: linear-gradient(to right, var(--cor07Marron), #FDD5CC);
+    box-shadow: -2px -2px 1px #310f051c;
+}
+#galeria > .imagens{
+    margin: 2px;
+    border: 1px solid #000;
+    width: 80px;
+    height: 114px;
+    display: inline-block;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px #310f0556;
+}
+div#container_mudaImg {
+    height: 530px;
+    width: 400px;
+    border: 4px #000 double;
+    /* box-shadow: -0px 0px 4px 6px #310f056d; */
+    margin: auto;
+    margin-bottom: 6px;
+}
+#container_P > p {
+    text-align: center;
+    margin: auto;
+    text-shadow: 1px 1px 1px var(--cor06);
+    color:var(--cor07Marron);
+    margin-top: 12px;
+    margin-bottom: 12px;
+   /*  text-decoration: underline; */
+    background: var(--cor02);
+    line-height: 20px;
+    padding: 2px;
+}
+#mudarImg {
+    width: 400px;
+    height: 530px;
+    position:static;
+    margin: auto;
+    text-align: center;
+    background-color: #000;
+}
+#produtos {
+    width: 82%;
+    margin:auto;
+    columns: 2;
+    column-rule: 1px solid #00000017;
+    padding: 10px 38px 10px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.131);
+    border-radius: 10px;
+    background: var(--cor02);
+    margin-top: 16px;
+    margin-bottom: 4px;
+    /* text-shadow: 1px 1px 1px var(--cor06); */
+    box-shadow: -2px -2px 4px #310f051c;
+    color: var(--cor07Marron);
+    /* font-family: 'Dancing Script', cursive; */
+}
+#produtos li {
+    list-style-image: url(cakeQ32x32.png);
+    line-height: 34px;
+}
+div#sabores {
+   background-color:var(--cor02);
+   color:var(--cor07Marron);
+   width: 80%;
+   margin: auto;
+   border: 1px solid rgb(255, 255, 255);
+   border-radius: 10px;
+   padding: 10px 38px 10px 30px;
+   box-shadow: -2px -2px 4px #310f051c;
+   border-top: 1px solid #310f0536;
+   border-bottom: 1px solid #310f0518;
+   line-height: 24px;
+   font-size: 0.9em;
+}
+div#sabores a {
+    text-decoration: none;
+}
+div#sabores a:hover {
+    color:var(--cor06);
+}
+span{
+    font-weight: bold;
+}
+#contato {
+    text-align: center;
+    max-width: 900px;
+    height: 22%;
+    padding: 20px;
+}
+#contato div{
+    text-align: center;
+    font-size: 1em;
+    display: inline-block;
+    width: 160px;
+    max-height: 100px;
+    margin: 10px 2px 2px 2px;
+    border-radius: 16px;
+    line-height: 10px;
+    background-image: linear-gradient(to left, var(--cor02), transparent );
+    box-shadow: -2px -1px 1px #310f051c;
+    padding: 2px 8px;
+    border-left: 1px solid #310f05cd;
+}
+#contato  p {
+    text-align: center;
+    font-size: 11px;
+    line-height: 20px;
+}
+.email-wats {
+    text-shadow: 0px 1px 1px var(--cor07Marron);
+    font-size: 10px;
+}
+img{
+    width: 26px;
+    height: 26px;
+    margin: 4px 4px 0px 0px;
+}
+footer {
+    width: 100%;
+    margin-top: -10px;
+    height: 30px;
+    background-color: var(--cor07Marron);
+    border-top: 1px #000 solid;
+}
+.linkWhats {
+    color:white;
+    text-shadow: 1px 1px 1px var(--cor07Marron);
+}
+
+footer > p {
+    text-align: center;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.809);
+    font-size: 0.8em;
+}
+footer > p a {
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 0.8em;
+}
+footer > p a:hover {
+text-decoration: underline;
+}
+
