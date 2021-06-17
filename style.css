@@ -199,7 +199,10 @@ div#container_mudaImg {
     position:static;
     margin: auto;
     text-align: center;
-    background-color: #000;
+    background-image: url("Frosen500.jpg");
+}
+#container_div{
+    display: flex;
 }
 #produtos {
     width: 82%;
