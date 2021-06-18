@@ -173,7 +173,7 @@ div#container_mudaImg {
     margin-bottom: 6px;
     position: sticky;
 }
-#container_P > p {
+#container_p > p {
     text-align: center;
     margin: auto;
     text-shadow: 1px 1px 1px var(--cor06);
