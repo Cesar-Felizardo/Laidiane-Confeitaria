@@ -10,9 +10,10 @@
     
     <link class="fav_icon" rel="shortcut icon" href="Imagens full/Logo_Confeitaria_Edit_500.png" type="image/x-icon">
     <script type="text/javascript" src="script.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-    
     <header>
         <nav>
             <a href="#">HOME</a>
@@ -30,32 +31,43 @@
     <main>  
         <aside>
             <h2>A CONFEITARIA</h2>
-            <p>Desde 2018, LAIDIANE CONFEITARIA comercializa bolos com os mais diversificados recheios e decorações de acordo com gostos de seus clientes, sem abrir mão da qualidade do produto ultilizando sempre o que há de melhor em ingredientes para obter o melhor resultado na qualidade de cada bolo, tudo isso visando sempre entregar o melhor tanto em aspecto visual e também nos sabores.
+            <p>Desde 2018, LAIDIANE CONFEITARIA comercializa bolos com os mais diversificados recheios e decorações de acordo com gostos de seus clientes, sem abrir mão da qualidade do produto ultilizando sempre o que há de melhor em ingredientes para obter o melhor resultado na qualidade de cada bolo, tudo isso visando sempre entregar o melhor em aspecto visual e sabores.
             </p>
         </aside>
-       
-
         <h2 id="imagens">GALERIA DE FOTOS</h2>
-        <div id="container_P">
+        <!-- <div id="container_P">
             <p>Clique sobre uma foto para amplia-la<p>
-        </div>
+        </div> -->
         <div id="container_div">
-            <div 
-                id="container_mudaImg" ><img id="mudarImg">
-            </div>
-            <div id="galeria">
-                <img class="imagens" id="imagem1" src="Frosen500.jpg" alt="" onclick="img1()"> 
-                <img class="imagens" id="imagem2" src="FreeFire500.jpg" alt="" onclick="img2()"> 
-                <img class="imagens" id="imagem3" src="BodasFlores500.jpg" alt="" onclick="img3()"> 
-                <img class="imagens" id="imagem4" src="Kamila600.jpg" alt="" onclick="img4()"> 
-                <img class="imagens" id="imagem5" src="Larissa600.jpg" alt="" onclick="img5()"> 
-                <img class="imagens" id="imagem6" src="Miniuns600.jpg" alt="" onclick="img6()"> 
-                <img class="imagens" id="imagem7" src="Unicornio600.jpg" alt="" onclick="img7()"> 
-                <img class="imagens" id="imagem8" src="NsAparecida600.jpg" alt="" onclick="img8()"> 
-                <img class="imagens" id="imagem9" src="MariaVitoria600.jpg" alt="" onclick="img9()"> 
-                <img class="imagens" id="imagem10" src="Lucas600.jpg" alt="" onclick="img10()"> 
-                <img class="imagens" id="imagem11" src="OsIncriveis400.jpg" alt="" onclick="img11()">
-                <img class="imagens" id="imagem12" src="Heloisa400.jpg" alt="" onclick="img12()">
+
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-success">Fotos</span>
+                         <div id="container_mudaImg" ><img id="mudarImg"></div>
+                    </div>
+
+                    <div class="col-md-6">
+                         <span class="badge badge-"><div id="container_P">
+                            Clique sobre uma foto para amplia-la
+                        </div></span>
+                         <div id="galeria">
+                            <img class="imagens" id="imagem1" src="Frosen500.jpg" alt="" onclick="img1()"> 
+                            <img class="imagens" id="imagem2" src="FreeFire500.jpg" alt="" onclick="img2()"> 
+                            <img class="imagens" id="imagem3" src="BodasFlores500.jpg" alt="" onclick="img3()"> 
+                            <img class="imagens" id="imagem4" src="Kamila600.jpg" alt="" onclick="img4()"> 
+                            <img class="imagens" id="imagem5" src="Larissa600.jpg" alt="" onclick="img5()"> 
+                            <img class="imagens" id="imagem6" src="Miniuns600.jpg" alt="" onclick="img6()"> 
+                            <img class="imagens" id="imagem7" src="Unicornio600.jpg" alt="" onclick="img7()"> 
+                            <img class="imagens" id="imagem8" src="NsAparecida600.jpg" alt="" onclick="img8()"> 
+                            <img class="imagens" id="imagem9" src="MariaVitoria600.jpg" alt="" onclick="img9()"> 
+                            <img class="imagens" id="imagem10" src="Lucas600.jpg" alt="" onclick="img10()"> 
+                            <img class="imagens" id="imagem11" src="OsIncriveis400.jpg" alt="" onclick="img11()">
+                            <img class="imagens" id="imagem12" src="Heloisa400.jpg" alt="" onclick="img12()">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
        <div id="recheios"></div>
@@ -63,8 +75,43 @@
        <h2 id="recheios">ALGUNS DE NOSSOS RECHEIOS</h2>
        <br>
        <div id="produtos">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6-sabores">
+                    <ul>
+                        <li> <abbr title="chocolate"> Mouse Shot</li>
+                        <li> <abbr title=""> Creme Belga</abbr></li>
+                        <li> <abbr title=""> Mouse de morango trufado</abbr></li>
+                        <li> <abbr title=""> Brigadeiro de Nutella</abbr></li>
+                        <li> <abbr title=""> Brigadeiro de doce de leite</abbr></li>
+                        <li> <abbr title=""> Brigadeiro Gourmet</abbr></li>
+                        <li> <abbr title=""> Creme de ninho</abbr></li>
+                        <li> <abbr title=""> Caramelo salgado</abbr></li>
+                        <li> <abbr title=""> Mouse Ferrero Rocher</abbr></li>
+                        <li> <abbr title=""> Mouse Rafaelo</abbr></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6-sabores">
+                  <ul>
+                    <li> <abbr title=""> Delícia de ouro Branco</abbr></li>
+                    <li> <abbr title=""> Brigadeiro Gournet de paçoquinha</abbr></li>
+                    <li> <abbr title=""> Brigadeiro Laka com Óreo</abbr></li>
+                    <li> <abbr title=""> Mouse Sensação</abbr></li>
+                    <li> <abbr title=""> Mouse Sufair</abbr></li>
+                    <li> <abbr title=""> Prestígio</abbr></li>
+                    <li> <abbr title=""> Brigadeiro bombom Serenata</abbr></li>
+                    <li> <abbr title=""> Brigadeiro de Maracujá</abbr></li>
+                    <li> <abbr title=""> Dois amores</abbr></li>
+                    <li> <abbr title=""> Creme de abacaxi</abbr></li>
+                  </ul>
+                </div>
+            </div>
+
+        </div>
            
-           <ul>
+           <!-- <ul>
                <li> <abbr title="chocolate"> Mouse Shot</li>
                <li> <abbr title=""> Creme Belga</abbr></li>
                <li> <abbr title=""> Mouse de morango trufado</abbr></li>
@@ -74,8 +121,9 @@
                <li> <abbr title=""> Creme de ninho</abbr></li>
                <li> <abbr title=""> Caramelo salgado</abbr></li>
                <li> <abbr title=""> Mouse Ferrero Rocher</abbr></li>
-               <li> <abbr title=""> Mouse Rafaelo</abbr></li>
-               <li> <abbr title=""> Delícia de ouro Branco</abbr></li>
+               <li> <abbr title=""> Mouse Rafaelo</abbr></li> -->
+
+               <!-- <li> <abbr title=""> Delícia de ouro Branco</abbr></li>
                <li> <abbr title=""> Brigadeiro Gournet de paçoquinha</abbr></li>
                <li> <abbr title=""> Brigadeiro Laka com Óreo</abbr></li>
                <li> <abbr title=""> Mouse Sensação</abbr></li>
@@ -85,28 +133,40 @@
                <li> <abbr title=""> Brigadeiro de Maracujá</abbr></li>
                <li> <abbr title=""> Dois amores</abbr></li>
                <li> <abbr title=""> Creme de abacaxi</abbr></li>
-           </ul>
+           </ul> -->
            <br>
        </div>
        <div id="sabores" >
             <p id="sabores">Além desses,  trabalhamos com mais de <span>100 sabores</span>.<a class="linkWhats" target="_blank" href="https://wa.me/558499538968"> Clique aqui </a> e faça agora mesmo seu orçamento pelo <a target="_blank"  href="https://wa.me/558499538968"> whatsapp </a> de acordo com sua preferencia!
             </p>
-      </div> 
-        
-        <div id="contato">
-            <h2>FAÇA SEU ORÇAMENTO</h2> 
-        <div id="email">
-               <img src="o-email.png" alt=""> <p class="email-wats">EMAIL: </p>
-               <p>laidiane.confeitaria@gmail.com</p>
-        </div> 
-        <div id="whatsapp">
-            <img src="whatsapp.png" alt=""> <p class="email-wats">WHATSAPP </p>
-            <a target="_blank" href="https://wa.me/558499538968"><p>(28) 9953-8968</p></a>
         </div>
+      <div class="container-fluid" id="faleConosco">
+          <div class="row">
+              <div class="col-md-12">
+                  FALE CONOSCO:
+              </div>
+          </div>
+      </div>
+       
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="email">
+                    <img src="o-email.png" class="imgContact" alt=""> <p class="email-wats">EMAIL: </p>
+                    <p>laidiane.confeitaria@gmail.com</p>
+                </div>
+                </div>
+                <div class="col-md-6">
+                    <div id="whatsapp">
+                        <img src="whatsapp.png" class="imgContact"  alt=""> <p class="email-wats">WHATSAPP </p>
+                        <a target="_blank" href="https://wa.me/558499538968"><p>(28) 9953-8968</p></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
-        <p>Site desenvolvido por <a target="blank" href="https://github.com/Cesar-Felizardo">Cesar Felizardo</a></p>
+        <p> &copy; Todos os direitos reservados</p> <!-- <span id="developer">site desenvolvido por <a target="blank" href="https://github.com/Cesar-Felizardo">Cesar Felizardo</a></span> -->
     </footer>
 </body>
 </html>

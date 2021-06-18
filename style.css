@@ -17,16 +17,13 @@
 }
 @media (max-width: 700px){
     body {
-        font-size: 14px;
+        font-size: 12px;
     }
     #produtos {
         font-size: 12px;
     }
-    h2 {
-        font-size: 12px
-    }
     aside {
-        font-size: 13px;
+        font-size: 12px;
     }
     #sabores {
         font-size: 12px;
@@ -71,14 +68,14 @@ h2 {
     text-align: center;
     margin: auto;
     margin-top: 30px;
-    margin-bottom: 30px;                      /* H2 */
+    margin-bottom: 30px;                      
     color: var(--cor07Marron);
     max-width: 394px;
     height: 30%;
     border-radius: 10px;
     padding: 4px;
     line-height: 26px;
-    font-size: 1em;
+    font-size: 1em !important;
     border-left: 1px solid var(--cor07Marron);
     background-image: linear-gradient(to left, var(--cor02), transparent );
     text-shadow: 1px 1px 1px var(--cor07Marron);
@@ -91,7 +88,7 @@ nav{                             /* MENU NAV */
     /* border-bottom: 1px solid rgba(0, 0, 0, 0.166); */
     background-color: #310F05;
     font-size: 0.8em;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     opacity: 0.9;
 }
@@ -113,7 +110,6 @@ nav > a:hover{
     color:white;
     text-shadow: 1px 1px 1px var(--cor07Marron);
     border-left: 1px solid var(--cor07Marron);
-  
 }
 header {
     font-family: Arial, Helvetica, sans-serif;
@@ -135,7 +131,7 @@ main {
     box-shadow: 0px 0px 10px 4px #00000048;
 }
 main p {                           /*Paragrafos main*/
-    text-align: justify;
+    /* text-align: justify; */
     padding:0px 0px 10px 0px;
 }
 aside {
@@ -157,29 +153,27 @@ aside > p {                    /*Paragrafo aside*/
 }
 #galeria {
     text-align: center;
-    margin: auto;
     max-width: 100%;
     /* border: 1px solid rgba(0, 0, 0, 0.082); */
     padding: 0px;
-    background-image: linear-gradient(to right, var(--cor07Marron), #FDD5CC);
-    box-shadow: -2px -2px 1px #310f051c;
+    /* background-image: linear-gradient(to right, var(--cor07Marron), #FDD5CC); */
+    /* box-shadow: -2px -2px 1px #310f051c; */
 }
 #galeria > .imagens{
-    margin: 2px;
-    border: 1px solid #000;
-    width: 80px;
-    height: 114px;
-    display: inline-block;
+    margin: 6px;
+    border: 3px double #000;
+    width: 78px;
+    height: 110px;
     border-radius: 2px;
     box-shadow: 2px 2px 2px #310f0556;
 }
 div#container_mudaImg {
-    height: 530px;
-    width: 400px;
+    height: 538px;
+    width: 428px;
     border: 4px #000 double;
-    /* box-shadow: -0px 0px 4px 6px #310f056d; */
     margin: auto;
     margin-bottom: 6px;
+    position: sticky;
 }
 #container_P > p {
     text-align: center;
@@ -194,38 +188,41 @@ div#container_mudaImg {
     padding: 2px;
 }
 #mudarImg {
-    width: 400px;
+    width: 420px;
     height: 530px;
     position:static;
     margin: auto;
     text-align: center;
     background-image: url("Frosen500.jpg");
 }
-#container_div{
-    display: flex;
+.col-md-6{
+    font-size: 1em;
+    text-align: center;
 }
+.col-md-6-sabores{
+    font-size: 1em;
+    text-align: left;
+    text-indent: 30px;
+}
+
 #produtos {
-    width: 82%;
-    margin:auto;
-    columns: 2;
+    width: 100%;
     column-rule: 1px solid #00000017;
-    padding: 10px 38px 10px 10px;
     border: 1px solid rgba(0, 0, 0, 0.131);
     border-radius: 10px;
-    background: var(--cor02);
-    margin-top: 16px;
-    margin-bottom: 4px;
-    /* text-shadow: 1px 1px 1px var(--cor06); */
+    background: var(--cor01);
     box-shadow: -2px -2px 4px #310f051c;
     color: var(--cor07Marron);
-    /* font-family: 'Dancing Script', cursive; */
+    margin-bottom: 10px;
+    padding-top: 20px;
 }
 #produtos li {
     list-style-image: url(cakeQ32x32.png);
     line-height: 34px;
+    margin-left: 100px;
 }
 div#sabores {
-   background-color:var(--cor02);
+   background-color:var(--cor01);
    color:var(--cor07Marron);
    width: 80%;
    margin: auto;
@@ -247,40 +244,29 @@ div#sabores a:hover {
 span{
     font-weight: bold;
 }
-#contato {
+#faleConosco {
     text-align: center;
-    max-width: 900px;
-    height: 22%;
-    padding: 20px;
-}
-#contato div{
-    text-align: center;
-    font-size: 1em;
-    display: inline-block;
-    width: 160px;
-    max-height: 100px;
-    margin: 10px 2px 2px 2px;
-    border-radius: 16px;
-    line-height: 10px;
-    background-image: linear-gradient(to left, var(--cor02), transparent );
-    box-shadow: -2px -1px 1px #310f051c;
-    padding: 2px 8px;
-    border-left: 1px solid #310f05cd;
+    margin-top: 26px;
+    background-color: var(--cor01);
+    border: 1px solid var(--cor02);
 }
 #contato  p {
     text-align: center;
     font-size: 11px;
-    line-height: 20px;
+    line-height: 10px;
 }
 .email-wats {
     text-shadow: 0px 1px 1px var(--cor07Marron);
-    font-size: 10px;
+    font-size: 10px;       
+}
+.imgContact{
+    margin-top: 36px;
 }
 img{
     width: 26px;
     height: 26px;
     margin: 4px 4px 0px 0px;
-}
+} 
 footer {
     width: 100%;
     margin-top: -10px;
@@ -307,4 +293,5 @@ footer > p a {
 footer > p a:hover {
 text-decoration: underline;
 }
+
 
