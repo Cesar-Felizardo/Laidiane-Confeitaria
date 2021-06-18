@@ -63,7 +63,6 @@ p.love {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.618);
 } 
-
 h2 {
     text-align: center;
     margin: auto;
@@ -92,8 +91,7 @@ nav{                             /* MENU NAV */
     width: 100%;
     opacity: 0.9;
 }
-
-nav > a {                       /* LINK MENU NAV */
+nav > a{                       /* LINK MENU NAV */
     text-decoration: none;
     color: #ffffffd2;
     font-weight: normal;
@@ -293,5 +291,13 @@ footer > p a {
 footer > p a:hover {
 text-decoration: underline;
 }
-
+.rowHorizonte{
+    position: relative;
+    margin-left: 40px;
+    left: 40px;
+    height: 420px;
+    bottom: -50px;
+    top: -0px; 
+    border: 1px solid var(--cor02);
+}
 
