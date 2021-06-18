@@ -166,8 +166,8 @@ aside > p {                    /*Paragrafo aside*/
     box-shadow: 2px 2px 2px #310f0556;
 }
 div#container_mudaImg {
-    height: 518px;
-    width: 408px;
+    height: 418px;
+    width: 308px;
     border: 4px #000 double;
     margin: auto;
     margin-bottom: 6px;
@@ -186,8 +186,8 @@ div#container_mudaImg {
     padding: 2px;
 }
 #mudarImg {
-    width: 400px;
-    height: 510px;
+    width: 300px;
+    height: 410px;
     position:static;
     margin: auto;
     text-align: center;
