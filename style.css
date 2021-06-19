@@ -15,7 +15,7 @@
     font-family: 'love';
     src: url('Carlista\ Buttery.ttf') format('truetype');
 }
-@media (max-width: 700px){
+@media (max-width: 655px){
     body {
         font-size: 12px;
     }
@@ -27,6 +27,13 @@
     }
     #sabores {
         font-size: 12px;
+        display: flex;
+    }
+    #produtos {
+        margin: auto;
+        max-width: 380px;                    /* mudei aqui*/
+        
+        
     }
 }
 .fav_icon {
@@ -203,7 +210,8 @@ div#container_mudaImg {
 }
 
 #produtos {
-    width: 100%;
+    margin: auto;
+    width: 90%;                         /* mudei aqui*/
     column-rule: 1px solid #00000017;
     border: 1px solid rgba(0, 0, 0, 0.131);
     border-radius: 10px;
@@ -216,7 +224,7 @@ div#container_mudaImg {
 #produtos li {
     list-style-image: url(cakeQ32x32.png);
     line-height: 34px;
-    margin-left: 100px;
+    margin-left: 40px;                /* mudei aqui*/ 
 }
 div#sabores {
    background-image: linear-gradient(to right, transparent, var(--cor01)90%, var(--cor02)100%);
@@ -293,7 +301,7 @@ text-decoration: underline;
 }
 .rowHorizonte{
     position: relative;
-    margin-left: 40px;
+    margin-left: 20px;
     left: 40px;
     height: 420px;
     bottom: -50px;
