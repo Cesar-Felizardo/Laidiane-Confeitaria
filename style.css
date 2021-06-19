@@ -76,7 +76,7 @@ h2 {
     line-height: 26px;
     font-size: 1em !important;
     border-left: 1px solid var(--cor07Marron);
-    background-image: linear-gradient(to left, var(--cor02), transparent );
+    background-image: linear-gradient(to left, var(--cor02), transparent);
     text-shadow: 1px 1px 1px var(--cor07Marron);
     box-shadow: -2px -2px 1px #310f051c;
     font-weight: normal;
@@ -207,7 +207,7 @@ div#container_mudaImg {
     column-rule: 1px solid #00000017;
     border: 1px solid rgba(0, 0, 0, 0.131);
     border-radius: 10px;
-    background-image: linear-gradient(to top, transparent,var(--cor02));
+    background-image: linear-gradient(to right, transparent, var(--cor01), var(--cor02));
     box-shadow: -2px -2px 4px #310f051c;
     color: var(--cor07Marron);
     margin-bottom: 10px;
@@ -219,7 +219,7 @@ div#container_mudaImg {
     margin-left: 100px;
 }
 div#sabores {
-   background-color:var(--cor02);
+   background-image: linear-gradient(to right, transparent, var(--cor01), var(--cor02));
    color:var(--cor07Marron);
    width: 80%;
    margin: auto;
@@ -244,8 +244,9 @@ span{
 #faleConosco {
     text-align: center;
     margin-top: 26px;
-    background-color: var(--cor02);
-    border: 1px solid var(--cor02);
+    background-image:linear-gradient(to right, transparent, var(--cor01), var(--cor02));
+    /* border: 1px solid var(--cor02); */
+    box-shadow: -2px -2px 4px #310f051c;
 }
 #contato  p {
     text-align: center;
