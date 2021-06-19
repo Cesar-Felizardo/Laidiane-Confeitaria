@@ -103,7 +103,7 @@ h2 {
 }
 nav{                             /* MENU NAV */
     text-align: center;
-   /*  padding:10px 60px 10px 0px; */
+    padding:8px;
     /* border-bottom: 1px solid rgba(0, 0, 0, 0.166); */
     background-color: #310F05;
     font-size: 0.8em;
