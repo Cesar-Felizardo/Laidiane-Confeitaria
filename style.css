@@ -17,7 +17,7 @@
 }
 @media (max-width: 655px){
     body {
-        font-size: 12px;
+        font-size: 13px;
     }
     #produtos {
         font-size: 12px;
@@ -27,15 +27,22 @@
     }
     #sabores {
         font-size: 12px;
-        display: flex;
-    }
+        /* display: flex; */
+    }   
+}
+@media (max-width: 840px){
     #produtos {
         margin: auto;
-        max-width: 380px;                    /* mudei aqui*/
-        
-        
+        max-width: 450px;                    
     }
 }
+@media (max-width: 540px){
+    #produtos {
+        margin: auto;
+        max-width: 380px;                    
+    }
+}
+
 .fav_icon {
     height: 20px;
     width: 20px;
@@ -44,7 +51,7 @@
     margin: 0px;
 }
 html {
-    scroll-behavior: smooth; /* Barra de rolagem do documento*/
+    scroll-behavior: smooth;
 }
 body {
     padding: 0px;
@@ -224,7 +231,7 @@ div#container_mudaImg {
 #produtos li {
     list-style-image: url(cakeQ32x32.png);
     line-height: 34px;
-    margin-left: 40px;                /* mudei aqui*/ 
+    margin-left: 64px;                /* mudei aqui*/ 
 }
 div#sabores {
    background-image: linear-gradient(to right, transparent, var(--cor01)90%, var(--cor02)100%);
@@ -238,7 +245,7 @@ div#sabores {
    border-top: 1px solid #310f0536;
    border-bottom: 1px solid #310f0518;
    line-height: 24px;
-   font-size: 0.9em;
+   font-size: 0.9em ;
 }
 div#sabores a {
     text-decoration: none;
