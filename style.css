@@ -42,7 +42,7 @@
         max-width: 380px;                    
     }
     p.love {
-        margin-top: -60px;
+        line-height: 0px;
     }
 }
 
