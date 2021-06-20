@@ -103,7 +103,7 @@ h2 {
 }
 nav{                             /* MENU NAV */
     text-align: center;
-    padding:12px;
+    padding:10px;
     /* border-bottom: 1px solid rgba(0, 0, 0, 0.166); */
     background-color: #310F05;
     font-size: 0.8em;
@@ -251,7 +251,7 @@ div#sabores {
    border-top: 1px solid #310f0536;
    border-bottom: 1px solid #310f0518;
    line-height: 24px;
-   font-size: 0.9em ;
+   font-size: 0.9em;
 }
 div#sabores a {
     text-decoration: none;
