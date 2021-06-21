@@ -8,7 +8,6 @@
     --cor06:#CB8F86;
     --cor07Marron:#310F05;
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); /* FONTE GOOGLE USING: font-family: 'Dancing Script', cursive; */
 
 @font-face {
@@ -27,7 +26,6 @@
     }
     #sabores {
         font-size: 12px;
-        /* display: flex; */
     }   
 }
 @media (max-width: 840px){
@@ -104,11 +102,8 @@ h2 {
 nav{                             /* MENU NAV */
     text-align: center;
     padding:10px;
-    /* border-bottom: 1px solid rgba(0, 0, 0, 0.166); */
     background-color: #310F05;
     font-size: 0.8em;
-    /* position: fixed; */
-    width: 100%;
     opacity: 0.9;
 }
 nav > a{                       /* LINK MENU NAV */
@@ -149,7 +144,6 @@ main {
     box-shadow: 0px 0px 10px 4px #00000048;
 }
 main p {                           /*Paragrafos main*/
-    /* text-align: justify; */
     padding:0px 0px 10px 0px;
 }
 aside {
@@ -172,10 +166,7 @@ aside > p {                    /*Paragrafo aside*/
 #galeria {
     text-align: center;
     max-width: 100%;
-    /* border: 1px solid rgba(0, 0, 0, 0.082); */
     padding: 0px;
-    /* background-image: linear-gradient(to right, var(--cor07Marron), #FDD5CC); */
-    /* box-shadow: -2px -2px 1px #310f051c; */
 }
 #galeria > .imagens{
     margin: 6px;
@@ -192,7 +183,6 @@ aside > p {                    /*Paragrafo aside*/
     color:var(--cor07Marron);
     margin-top: 12px;
     margin-bottom: 12px;
-   /*  text-decoration: underline; */
     background: var(--cor02);
     line-height: 20px;
     padding: 2px;
@@ -266,7 +256,6 @@ span{
     text-align: center;
     margin-top: 26px;
     background-image:linear-gradient(to right, transparent, var(--cor01), var(--cor02));
-    /* border: 1px solid var(--cor02); */
     box-shadow: -2px -2px 4px #310f051c;
 }
 #contato  p {
@@ -320,5 +309,12 @@ text-decoration: underline;
     bottom: -50px;
     top: -0px; 
     border: 1px solid var(--cor02);
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
 }
 
