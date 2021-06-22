@@ -271,7 +271,8 @@ img{
     margin-top: 36px;
 } 
 .email-wats {
-    margin-bottom: 2px;
+    margin-bottom: -6px;
+    text-decoration: underline;
 }
 .col-md-6{
     background: transparent;
