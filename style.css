@@ -77,19 +77,19 @@ p.love {
 }
 .logo_e_Sub {
     height: 500px;
-    padding: -25px;
+    padding: -20px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.618);
 } 
 h2 {
     text-align: center;
     margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;                      
+    margin-top: 20px !important;
+    margin-bottom: 8px !important;                      
     color: var(--cor07Marron);
-    max-width: 394px;
+    max-width: 100%;
     height: 30%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 4px;
     line-height: 26px;
     font-size: 1em !important;
@@ -157,8 +157,8 @@ aside {
 aside > p {                    /*Paragrafo aside*/
     max-width: 76%;
     margin: auto;
-    padding-bottom: 26px;
-    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 30px;
     text-indent: 32px;
     height: 40%;
     line-height: 32px;
@@ -187,12 +187,16 @@ aside > p {                    /*Paragrafo aside*/
     line-height: 20px;
     padding: 2px;
 }
+/* #recheios {
+
+
+} */
 div#container_mudaImg {
     height: 454px;
     width: 348px;
     border: 4px #000 double;
     margin: auto;
-    margin-bottom: 6px;
+    margin-bottom: 16px;
 }
 #mudarImg {
     height: 446px;
@@ -252,7 +256,7 @@ div#sabores a:hover {
 span{
     font-weight: bold;
 }
-#faleConosco {
+#faixa-pink {
     text-align: center;
     margin-top: 26px;
     background-image:linear-gradient(to right, transparent, var(--cor01), var(--cor02));
