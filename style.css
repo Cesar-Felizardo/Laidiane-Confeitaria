@@ -104,7 +104,7 @@ nav{                             /* MENU NAV */
     padding:10px;
     background-color: #310F05;
     font-size: 0.8em;
-    opacity: 0.9;
+    opacity: 1;
 }
 nav > a{                       /* LINK MENU NAV */
     text-decoration: none;
@@ -262,19 +262,19 @@ span{
     text-align: center;
     font-size: 11px;
     line-height: 10px;
-}
-.email-wats {
-    text-shadow: 0px 1px 1px var(--cor07Marron);
-    font-size: 10px;       
-}
-.imgContact{
-    margin-top: 36px;
-}
+}     
 img{
     width: 26px;
     height: 26px;
     margin: 4px 4px 0px 0px;
+    margin-bottom: 10px;
+    margin-top: 36px;
 } 
+.col-md-6{
+    background: transparent;
+    border-radius: 10px;
+    font-size: 12px;
+}
 footer {
     width: 100%;
     margin-top: -10px;
