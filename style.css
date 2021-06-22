@@ -76,7 +76,8 @@ p.love {
     font-weight: normal;
 }
 .logo_e_Sub {
-    padding: 40px;
+    height: 500px;
+    padding: -25px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.618);
 } 
