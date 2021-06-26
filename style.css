@@ -259,12 +259,14 @@ span{
 img{
     width: 26px;
     height: 26px;
-    margin: 4px 4px 0px 0px;
-    margin-bottom: 10px;
-    margin-top: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 } 
+.col-md-4{
+    text-align: center;
+}
 .email-wats {
-    margin-bottom: -6px;
+    margin-bottom: 2px;
     text-decoration: underline;
 }
 .col-md-6{
