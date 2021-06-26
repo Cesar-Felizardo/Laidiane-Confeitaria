@@ -166,8 +166,7 @@ aside > p {                    /*Paragrafo aside*/
 #galeria {
     text-align: center;
     max-width: 100%;
-    padding: 0px;
-    margin-top: 12px;
+    margin-top: 15px;
 }
 #galeria > .imagens{
     margin: 6px;
