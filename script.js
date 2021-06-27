@@ -1,11 +1,4 @@
 
-/* 
-function mudarImg() {
-    document.getElementById("mudarImg").src="Dourado500.jpg";
-    document.getElementsByClassName('imagens').style.border = "2px double red" 
-} */
-
-
 function img1() {
     var img1 = document.getElementById("mudarImg")
     img1.src="Frosen500.jpg";
