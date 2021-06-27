@@ -105,6 +105,9 @@ nav{                             /* MENU NAV */
     background-color: #310F05;
     font-size: 0.8em;
     opacity: 1;
+    position: fixed ;
+    z-index: 1;
+    width: 100%;
 }
 nav > a{                       /* LINK MENU NAV */
     text-decoration: none;
@@ -267,16 +270,16 @@ img{
     height: 32px;
 }
 .imgInstagram {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 5px;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 0px;
 }
 .col-md-4{
-    text-align: center;
+    text-align: center; /*IMGs*/
+    position: fixed;
 }
 .email-wats {
     margin-bottom: 2px;
-    text-decoration: none;
 }
 .col-md-6{
     background: transparent;
@@ -292,8 +295,9 @@ footer {
     border-top: 1px #000 solid;
 }
 .linkWhats {
-    color:white;
+    color:var(--cor07Marron);
     text-shadow: 1px 1px 1px var(--cor07Marron);
+    text-decoration: underline;
 }
 
 footer > p {
