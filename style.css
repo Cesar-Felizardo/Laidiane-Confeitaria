@@ -278,15 +278,14 @@ img{
     margin-bottom: -4px;
 }
 #rowContact {
-    background-color: var(--cor01);
+    background-color: white;
     padding:8px;
 }
 .col-md-4{
     text-align: center; /*IMGs*/
-    /* border: 0.2px solid rgba(0, 0, 0, 0.486); */
     border-radius: 10px;
     margin-top: 6px;
-    background-image:linear-gradient(to right, white, var(--cor02));
+    background-image:linear-gradient(to right, white, var(--cor01));
     box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.479);
 }
 .col-md-6{
