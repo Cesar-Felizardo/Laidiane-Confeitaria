@@ -285,7 +285,7 @@ img{
     text-align: center; /*IMGs*/
     border-radius: 10px;
     margin-top: 6px;
-    margin-left: 2px;
+   /*  margin-left: 1px; */
     background: var(--cor01);
     box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.479);
 }
