@@ -107,7 +107,7 @@ nav{                             /* MENU NAV */
     z-index: 1;
     width: 100%;
 }
-nav > a{                       /* LINK MENU NAV */
+nav > a{                       /* LINK MENU NAV a*/
     text-decoration: none;
     color: #ffffffd2;
     font-weight: normal;
@@ -116,7 +116,7 @@ nav > a{                       /* LINK MENU NAV */
     font-size: 12px;
 }
 nav > a:hover{
-    color: #310F05;                       /* LINK MENU NAV */
+    color: #310F05;                       /* LINK MENU NAV a:HOVER */
     background-image: linear-gradient(to right, transparent,var(--cor01)90%, var(--cor03)100%);
     border-radius: 10px;
     padding: 3px 6px;
@@ -253,7 +253,7 @@ span{
 #faixa-pink {
     text-align: center;
     margin-top: 26px;
-    background-image:linear-gradient(to right, var(--cor01), var(--cor03), var(--cor02));
+    background-image:linear-gradient(to right, var(--cor01), var(--cor03), var(--cor01));
     box-shadow: -2px -2px 4px #310f051c;
 }
 #contato  p {
@@ -279,13 +279,14 @@ img{
 }
 #rowContact {
     background-color: white;
-    padding:8px;
+    padding:2px;
 }
 .col-md-4{
     text-align: center; /*IMGs*/
     border-radius: 10px;
     margin-top: 6px;
-    background-image:linear-gradient(to right, white, var(--cor01));
+    margin-left: 2px;
+    background: var(--cor01);
     box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.479);
 }
 .col-md-6{
@@ -337,5 +338,6 @@ footer > p a:hover {
     min-height: 1px;
     padding-right: 0px !important;
     padding-left: 0px !important;
+    padding-bottom: 6px !important;
 }
 
