@@ -175,7 +175,7 @@ aside > p {                    /*Paragrafo aside*/
     width: 78px;
     height: 110px;
     border-radius: 2px;
-    box-shadow: 2px 2px 2px #310f0556;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.479);
     border-radius: 6px;
 }
 
@@ -187,6 +187,7 @@ div#container_mudaImg {
     margin-bottom: 30px;
     margin-top: 40px;
     border-radius: 8px;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.589);
 }
 #mudarImg {
     height: 446px;
@@ -282,10 +283,11 @@ img{
 }
 .col-md-4{
     text-align: center; /*IMGs*/
-    border: 0.2px solid rgba(0, 0, 0, 0.486);
+    /* border: 0.2px solid rgba(0, 0, 0, 0.486); */
     border-radius: 10px;
     margin-top: 6px;
     background-image:linear-gradient(to right, white, var(--cor02));
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.479);
 }
 .col-md-6{
     background: transparent;
