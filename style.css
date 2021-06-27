@@ -295,7 +295,7 @@ img{
 }
 footer {
     width: 100%;
-    margin-top: -10px;
+    margin-top: -5px;
     height: 30px;
     background-color: var(--cor07Marron);
     border-top: 1px #000 solid;
