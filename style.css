@@ -179,7 +179,7 @@ aside > p {                    /*Paragrafo aside*/
     border-radius: 6px;
 }
 
-div#container_mudaImg {
+#container_mudaImg {
     height: 454px;
     width: 348px;
     border: 4px #000 double;
@@ -227,7 +227,7 @@ div#container_mudaImg {
     margin-left: 64px;                /* mudei aqui*/
     font-size: 13px; 
 }
-div#sabores {
+#sabores {
    background-image: linear-gradient(to right, transparent, var(--cor01)90%, var(--cor02)100%);
    color:var(--cor07Marron);
    width: 90%;
@@ -241,10 +241,10 @@ div#sabores {
    line-height: 24px;
    font-size: 0.9em;
 }
-div#sabores a {
+#sabores a {
     text-decoration: none;
 }
-div#sabores a:hover {
+#sabores a:hover {
     color:var(--cor06);
 }
 span{
@@ -277,15 +277,16 @@ img{
     height: 48px;
     margin-bottom: -4px;
 }
-#rowContact {
+#rowContact {        /* backgorund container img contact*/
     background-color:#16070283;
-    padding:4px;
+    padding:4px 4px 0px 4px;
 }
 .col-md-4{
     text-align: center; /*IMGs*/
     border-radius: 10px;
     background: white;
     box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.479);
+    margin-bottom: 4px;
 }
 .col-md-6{
     background: transparent;
