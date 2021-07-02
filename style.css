@@ -99,7 +99,7 @@ h2 {
 }
 nav{                             /* MENU NAV */
     text-align: center;
-    padding:10px;
+    padding:10px 5px 5px 5px;
     background-color: #310F05;
     font-size: 0.8em;
     opacity: 1;
@@ -133,6 +133,8 @@ header {
     background-size:cover;
     background-position:top;
     background-repeat: no-repeat;
+    margin-bottom: -20px;
+    margin-top: -10px;
 }
 main {
     font-size: 1em;
@@ -219,6 +221,7 @@ aside > p {                    /*Paragrafo aside*/
     margin-bottom: 10px;
     padding-top: 20px;
     margin-top: 30px !important;
+    margin-top: 10px !important; 
 }
 #produtos li {
     list-style-image: url(cakeQ32x32.png);
@@ -264,6 +267,7 @@ span{
     margin-top: 26px;
     background-image:linear-gradient(to right, var(--cor01), var(--cor03), var(--cor01));
     box-shadow: -2px -2px 4px #310f051c;
+    margin-bottom: 2px;
 }
 #contato  p {
     text-align: center;
@@ -287,15 +291,16 @@ img{
     margin-bottom: -4px;
 }
 #rowContact {        /* backgorund container img contact*/
-    background-color:#16070283;
-    padding:4px 4px 0px 4px;
+    background-color:#1607020e;
+    padding:30px 4px 0px 4px;
+
 }
 .col-md-4{
     text-align: center; /*IMGs*/
     border-radius: 10px;
     background: white;
     box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.479);
-    margin-bottom: 4px;
+    margin-bottom: 20px;
 }
 .col-md-6{
     background: transparent;
